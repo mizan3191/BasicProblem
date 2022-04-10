@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FullPyramid
+namespace FullPyramid2
 {
     internal class Program
     {
@@ -10,16 +10,16 @@ namespace FullPyramid
             var Hight = int.Parse(Console.ReadLine());
             var k = 0;
 
-            for(int i = 1; i <= Hight; i++)
+            for (int i = 1; i <= Hight; i++)
             {
-                for(int j = 1; j <= Hight-i; j++)
+                for (int j = 1; j <= Hight - i; j++)
                 {
-                    Console.Write("  ");
+                    Console.Write(" ");
                 }
 
                 k = 0;
 
-                while (k != 2*i - 1)
+                while (k != i )
                 {
                     Console.Write("* ");
                     k++;
