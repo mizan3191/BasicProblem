@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullPyramid2", "FullPyramid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HollowFullPyramid", "HollowFullPyramid\HollowFullPyramid.csproj", "{2907588A-FC64-4051-9544-372875190506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowInvertedFullPyramid", "HollowInvertedFullPyramid\HollowInvertedFullPyramid.csproj", "{9CB606BA-3BF0-42D8-9FD5-FB269241AA8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HollowInvertedFullPyramid", "HollowInvertedFullPyramid\HollowInvertedFullPyramid.csproj", "{9CB606BA-3BF0-42D8-9FD5-FB269241AA8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullPyramid3", "FullPyramid3\FullPyramid3.csproj", "{774DCF50-E158-4825-93B8-6F2CCAF48E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullPyramid3", "FullPyramid3\FullPyramid3.csproj", "{774DCF50-E158-4825-93B8-6F2CCAF48E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidDiamond", "SolidDiamond\SolidDiamond.csproj", "{2B614F30-4C43-4DC7-A166-147955E32F8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidDiamond", "SolidDiamond\SolidDiamond.csproj", "{2B614F30-4C43-4DC7-A166-147955E32F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowDiamond", "HollowDiamond\HollowDiamond.csproj", "{62E1C312-9404-4542-BE4A-AE429C4B6772}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{2B614F30-4C43-4DC7-A166-147955E32F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B614F30-4C43-4DC7-A166-147955E32F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B614F30-4C43-4DC7-A166-147955E32F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E1C312-9404-4542-BE4A-AE429C4B6772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E1C312-9404-4542-BE4A-AE429C4B6772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E1C312-9404-4542-BE4A-AE429C4B6772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E1C312-9404-4542-BE4A-AE429C4B6772}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{9CB606BA-3BF0-42D8-9FD5-FB269241AA8E} = {5D0CFE2D-FE79-47FC-93FE-C0B2F0506D40}
 		{774DCF50-E158-4825-93B8-6F2CCAF48E8F} = {5D0CFE2D-FE79-47FC-93FE-C0B2F0506D40}
 		{2B614F30-4C43-4DC7-A166-147955E32F8B} = {5D0CFE2D-FE79-47FC-93FE-C0B2F0506D40}
+		{62E1C312-9404-4542-BE4A-AE429C4B6772} = {5D0CFE2D-FE79-47FC-93FE-C0B2F0506D40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {652C41BC-A838-4B9E-8C38-C3E5CEBA7113}
